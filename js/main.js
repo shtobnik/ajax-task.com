@@ -1,7 +1,6 @@
-$( window ).load()(function() {
-	console.log('works');
+$(document).ready(function() {
 
-	$body.on('click', '#productItemWrapper [data-add-to-cart]', function() {
+	/*$body.on('click', '#productItemWrapper [data-add-to-cart]', function() {
 		var $this   = $(this);
 		var $parent = $('#productItemWrapper');
 		var path    = $parent.attr('data-path');
@@ -45,6 +44,6 @@ $( window ).load()(function() {
 		});
 
 		return false;
-	});
+	});*/
 
 });
